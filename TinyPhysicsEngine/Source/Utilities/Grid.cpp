@@ -1,5 +1,5 @@
 #include "Source/Utilities/Grid.h"
-#include "Source/Colliders/Box.h"
+#include "Source/Colliders/AABB.h"
 
 Grid::Grid() : min_bound(0.f, 0.f), max_bound(0.f, 0.f) {}
 
